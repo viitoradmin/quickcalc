@@ -43,6 +43,7 @@ Development approach
 
 4. Validator setup for validation
 
+* Demo :  https://quickcalc.peppyemails.com/
 
 
 
