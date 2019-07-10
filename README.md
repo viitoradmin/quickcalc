@@ -29,21 +29,27 @@ Run ```php artisan migrate```
 start ```php artisan serve```
 
 command to set the application key into your .env file. **If the application key is not set, your user sessions and other encrypted data will not be secure!**
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 #development approach
 
 1. Laravel installation setup 
-composer create-project --prefer-dist laravel/laravel calculator
+```composer create-project --prefer-dist laravel/laravel calculator```
 
 2. Api Passport setup
- composer require laravel/passport
+``` composer require laravel/passport```
  
 
 3. Bootstrap for form design
 
 4. Validator setup for validation
+
+
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
 
 
 
