@@ -18,7 +18,6 @@ cd quickcalc
 ```
 ```
 composer install
-``
 ```
 Copy ```.env.example``` sample file to ```.env``` file and configure accordingly.
 Run ```php artisan passport:install``` 
