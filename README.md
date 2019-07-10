@@ -30,7 +30,7 @@ start ```php artisan serve```
 
 command to set the application key into your .env file. **If the application key is not set, your user sessions and other encrypted data will not be secure!**
 
-#development approach
+Development approach
 
 1. Laravel installation setup 
 ```composer create-project --prefer-dist laravel/laravel calculator```
