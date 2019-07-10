@@ -1,10 +1,36 @@
-# STEPS
-1.git clone https://github.com/viitoradmin/quickcalc.git
-2.cd quickcalc
-3.composer install
-4.cp .env.example .env
-5.php artisan key:generate
-6.set database configuration 
-7.php artisan migrate
-8.php artisan passport:install
-9.php artisan serve(if in local)
+
+
+# Quick calculators steps
+
+calculators is the Normal Quiz application build with the Laravel Framework & Passport rest API.This will be useful for the calculate the values.
+
+## Getting Started
+
+* Clone this repo to your local machine using https://github.com/viitoradmin/quickcalc.git
+
+You need to install the following:
+
+### Installing
+
+Follow the below steps to install Laraquiz into your system:
+```
+cd quickcalc
+```
+```
+composer install
+``
+```
+Copy ```.env.example``` sample file to ```.env``` file and configure accordingly.
+Run ```php artisan passport:install``` 
+
+Run ```php artisan key:generate``` 
+
+Run ```php artisan migrate``` 
+
+start ```php artisan serve```
+
+command to set the application key into your .env file. **If the application key is not set, your user sessions and other encrypted data will not be secure!**
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
